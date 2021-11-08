@@ -1,0 +1,21 @@
+.user-profile {
+	display: flex;
+	border: 1px solid orangered;
+	padding: 10px;
+	margin-bottom: 10px;
+}
+.user-img img {
+	width: 100px;
+	height: 100px;
+}
+.user-img {
+	width: 20%;
+}
+.user-info {
+	width: 35%;
+}
+.add-friend {
+	width: 40%;
+	margin-top: 85px;
+	margin-left: 10px;
+}
