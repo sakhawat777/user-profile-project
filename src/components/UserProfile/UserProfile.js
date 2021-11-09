@@ -16,10 +16,10 @@ const UserProfile = (props) => {
 	// const HandleFriendCount = () => {
 	// 	setCount(count + 1);
 	// };
-	const HandleFriendCount = (user) => {
-		const newAddFriend = [...addFriend, user];
+	const HandleFriendCount = (newAnnualIncome) => {
+		const newAddFriend = [...addFriend, newAnnualIncome];
 		setAddFriend(newAddFriend);
-		//console.log(user);
+		console.log(newAnnualIncome);
 	};
 
 	return (
