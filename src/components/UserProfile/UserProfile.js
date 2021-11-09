@@ -19,7 +19,6 @@ const UserProfile = (props) => {
 	const HandleFriendCount = (newAnnualIncome) => {
 		const newAddFriend = [...addFriend, newAnnualIncome];
 		setAddFriend(newAddFriend);
-		console.log(newAnnualIncome);
 	};
 
 	return (
