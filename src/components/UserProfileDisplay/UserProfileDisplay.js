@@ -5,15 +5,6 @@ const UserProfileDisplay = (props) => {
 	// console.log(user);
 	const HandleFriendCount = props.HandleFriendCount;
 
-	// let totalAnnualIncome = 0;
-	// for (let i = 0; i < user.length; i++) {
-	// 	const income = user[i];
-	// 	total = total + income.annual_income;
-	// }
-	// const totalAnnualIncome = user.reduce(
-	// 	(total, income) => total + income.annual_income,
-	// 	0
-	// );
 	return (
 		<div>
 			<div className='user-profile'>

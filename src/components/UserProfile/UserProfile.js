@@ -38,9 +38,7 @@ const UserProfile = (props) => {
 				</ul>
 			</div>
 			<div className='add-friend'>
-				<AddFriend
-					addFriend={addFriend}
-					HandleFriendCount={HandleFriendCount}></AddFriend>
+				<AddFriend addFriend={addFriend}></AddFriend>
 			</div>
 		</div>
 	);

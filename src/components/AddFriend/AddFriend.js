@@ -1,4 +1,4 @@
-import React,{useState} from 'react';
+import React from 'react';
 import '../AddFriend/AddFriend.css';
 
 const AddFriend = (props) => {
@@ -7,12 +7,16 @@ const AddFriend = (props) => {
 
 	const addFriend = props.addFriend;
 	console.log(addFriend);
-	// const [state, setstate] = useState([]);
-	 let totalAnnualIncome = 0;
-	for (let i = 0; i < addFriend.length; i++) {
-		const income = addFriend[i];
-		totalAnnualIncome = totalAnnualIncome + income;
-	}
+	
+	//  let totalAnnualIncome = 0;
+	// for (let i = 0; i < addFriend.length; i++) {
+	// 	const income = addFriend[i];
+	// 	totalAnnualIncome = totalAnnualIncome + income;
+	// }
+	const totalAnnualIncome = addFriend.reduce(
+			(sum, currentValue) => sum + currentValue,
+			0
+		);
 	return (
 		<div className='add-friend-info'>
 			<h2>Add Friend Info. </h2>
