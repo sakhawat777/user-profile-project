@@ -6,7 +6,7 @@ const AddFriend = (props) => {
 	
 
 	const addFriend = props.addFriend;
-	console.log(addFriend);
+	//console.log(addFriend);
 	
 	//  let totalAnnualIncome = 0;
 	// for (let i = 0; i < addFriend.length; i++) {
